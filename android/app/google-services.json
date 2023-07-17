@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "617750047514",
-    "project_id": "login2-89b4e",
-    "storage_bucket": "login2-89b4e.appspot.com"
+    "project_number": "737775536931",
+    "project_id": "flutterkampus",
+    "storage_bucket": "flutterkampus.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:617750047514:android:f04d86c14a3a5610f25aa3",
+        "mobilesdk_app_id": "1:737775536931:android:75be6c5faf935a7aa61a96",
         "android_client_info": {
           "package_name": "com.instaflutter.free_login_screen"
         }
       },
       "oauth_client": [
         {
-          "client_id": "617750047514-0nfk0tos9ejea3jjfnde55elsg1u58rq.apps.googleusercontent.com",
+          "client_id": "737775536931-csvor6fsd5j60e4k4ii25sem92cmi5mk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.instaflutter.free_login_screen",
-            "certificate_hash": "43cc1f19ff371c7058ce24a3a706c16fe7a87b18"
+            "certificate_hash": "f396520969655523ce5919c19109b273cd606287"
           }
         },
         {
-          "client_id": "617750047514-f976c7e1fes00bjfka52e06uf76bj92u.apps.googleusercontent.com",
+          "client_id": "737775536931-ag0k9bkuanaq584rsmeq3pp2ks0u8cag.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAzuJqHAh6aKrmvWfKNEEypm_xObaCyCXc"
+          "current_key": "AIzaSyB6JapzWLK9rY7P0Z6Jq0k4dEYq1x45sEA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "617750047514-f976c7e1fes00bjfka52e06uf76bj92u.apps.googleusercontent.com",
+              "client_id": "737775536931-ag0k9bkuanaq584rsmeq3pp2ks0u8cag.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

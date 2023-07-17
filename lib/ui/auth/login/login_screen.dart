@@ -47,7 +47,7 @@ class _LoginScreen extends State<LoginScreen> {
                   } else {
                     if (!mounted) return;
                     showSnackBar(context,
-                        state.message ?? 'Couldn\'t login, Please try again.');
+                        state.message ?? 'Tidak bisa login?? Coba lagi.');
                   }
                 },
               ),
@@ -55,7 +55,7 @@ class _LoginScreen extends State<LoginScreen> {
                 listener: (context, state) async {
                   if (state is ValidLoginFields) {
                     await context.read<LoadingCubit>().showLoading(
-                        context, 'Logging in, Please wait...', false);
+                        context, 'Sedang masuk, mohon tunggu...', false);
                     if (!mounted) return;
                     context.read<AuthenticationBloc>().add(
                           LoginWithEmailAndPasswordEvent(
@@ -87,7 +87,7 @@ class _LoginScreen extends State<LoginScreen> {
                             padding: EdgeInsets.only(
                                 top: 32.0, right: 16.0, left: 16.0),
                             child: Text(
-                              'Sign In',
+                              'Masuk',
                               style: TextStyle(
                                   color: Color(colorPrimary),
                                   fontSize: 25.0,
@@ -109,7 +109,7 @@ class _LoginScreen extends State<LoginScreen> {
                               keyboardType: TextInputType.emailAddress,
                               cursorColor: const Color(colorPrimary),
                               decoration: getInputDecoration(
-                                  hint: 'Email Address',
+                                  hint: 'Alamat Email',
                                   darkMode: isDarkMode(context),
                                   errorColor: Theme.of(context).errorColor)),
                         ),
@@ -148,7 +148,7 @@ class _LoginScreen extends State<LoginScreen> {
                                 onTap: () =>
                                     push(context, const ResetPasswordScreen()),
                                 child: const Text(
-                                  'Forgot password?',
+                                  'Lupa password?',
                                   style: TextStyle(
                                       color: Colors.lightBlue,
                                       fontWeight: FontWeight.bold,
@@ -177,7 +177,7 @@ class _LoginScreen extends State<LoginScreen> {
                               ),
                             ),
                             child: const Text(
-                              'Log In',
+                              'Masuk',
                               style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.bold,
@@ -193,7 +193,7 @@ class _LoginScreen extends State<LoginScreen> {
                           padding: const EdgeInsets.all(32.0),
                           child: Center(
                             child: Text(
-                              'OR',
+                              'ATAU',
                               style: TextStyle(
                                   color: isDarkMode(context)
                                       ? Colors.white

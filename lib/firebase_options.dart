@@ -54,11 +54,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA00kk1mEFrpbfxrKgt0WwcaviwyydyoTY',
-    appId: '1:724928109914:android:8d659462d0783cdf5b2763',
-    messagingSenderId: '724928109914',
-    projectId: 'flutter-freebies',
-    storageBucket: 'flutter-freebies.appspot.com',
+    apiKey: 'AIzaSyB6JapzWLK9rY7P0Z6Jq0k4dEYq1x45sEA',
+    appId: '1:737775536931:android:75be6c5faf935a7aa61a96',
+    messagingSenderId: '737775536931',
+    projectId: 'flutterkampus',
+    storageBucket: 'flutterkampus.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
